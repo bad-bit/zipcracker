@@ -1,3 +1,5 @@
+#!/usr/bin/Python3
+
 import zipfile
 from threading import Thread
 
