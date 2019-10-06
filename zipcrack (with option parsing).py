@@ -17,7 +17,7 @@ def extract(file, password):
 def main():
 	
 
-	parser = optparse.OptionParser("Usage - zipcrack.py "+"-f <zipfile> -d <dictionary>")
+	parser = optparse.OptionParser("Usage - zipcrack (with option parsing).py "+"-f <zipfile> -d <dictionary>")
 	parser.add_option('-f', dest='zname', type='string', help="Specify zip file")
 	parser.add_option('-d', dest='dname', type='string', help="Specify dictionary file")
 
